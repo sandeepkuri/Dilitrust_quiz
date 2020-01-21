@@ -28,5 +28,5 @@ def test_downloading_file():
 
 @when('user is clicking on file to download')
 def file_download(driver):
-    driver.find_element_by_xpath("//div[contains(text(),'Screen Shot 2020-01-17 at 7.07.25 AM.png')]").click()
-    driver.find_element_by_xpath("(//div[@data-tooltip='More actions'])[1]").click()
+    driver.find_element_by_xpath("//div[contains(text(),'Download all')]").click()
+
