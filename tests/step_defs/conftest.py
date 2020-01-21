@@ -34,20 +34,6 @@ def google_drive_page(driver):
     driver.get(Elements.GOOGLE_DRIVE_PAGE)
 
 
-@given("User is already logged in")
-def google_login(driver):
-    driver.find_element_by_xpath(Elements.google_elements['log_in']).click()
-    driver.find_element_by_xpath(Elements.google_elements['email_address']).send_keys("dili.sandeep@gmail.com")
-    next_button = driver.find_element_by_xpath(Elements.google_elements['b_next'])
-    next_button.click()
-    driver.find_element_by_xpath(Elements.google_elements['password']).send_keys("dilitrust")
-    try:
-        next_button.click()
-    except StaleElementReferenceException as Exception:
-        print(Exception)
-        driver.find_element_by_xpath(Elements.google_elements['b_next']).click()
-    assert driver.find_element_by_xpath(Elements.google_elements['login_verify'])
-
 # Background steps for AirCanada
 
 

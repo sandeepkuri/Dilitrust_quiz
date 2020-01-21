@@ -6,10 +6,11 @@ Feature: Perform upload and download
 
   Background:
     Given User is on google drive page
-    And User is already logged in
+
 
 
   Scenario: uploading file
+    Given User is already logged in
     When User is clicking on new
     And User is clicking on "file upload" and uploading the file
     # Then user can see the file on the screen

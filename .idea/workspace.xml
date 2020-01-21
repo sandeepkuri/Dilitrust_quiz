@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="0df72a25-877a-49a1-a1ce-260edd7fd95b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/features/google_drive.feature" beforeDir="false" afterPath="$PROJECT_DIR$/tests/features/google_drive.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/step_defs/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/step_defs/conftest.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/step_defs/test_google_drive.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/step_defs/test_google_drive.py" afterDir="false" />
     </list>
@@ -16,21 +17,28 @@
     <SUITE FILE_PATH="coverage/Dilitrust$pytest_for_test_amazon_items_test_search_item.coverage" NAME="pytest for test_amazon_items.test_search_item Coverage Results" MODIFIED="1579398094434" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/step_defs" />
     <SUITE FILE_PATH="coverage/Dilitrust$conftest.coverage" NAME="conftest Coverage Results" MODIFIED="1579389101292" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/step_defs" />
     <SUITE FILE_PATH="coverage/Dilitrust$pytest_in_aircanada_search_py.coverage" NAME="pytest in test_aircanada_search.py Coverage Results" MODIFIED="1579563562057" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/step_defs" />
+    <SUITE FILE_PATH="coverage/Dilitrust$pytest_for_test_google_drive_test_downloading_file.coverage" NAME="pytest for test_google_drive.test_downloading_file Coverage Results" MODIFIED="1579568973931" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/step_defs" />
     <SUITE FILE_PATH="coverage/Dilitrust$pytest_for_test_amazon_items_test_adding_item.coverage" NAME="pytest for test_amazon_items.test_adding_item Coverage Results" MODIFIED="1579395761632" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/step_defs" />
-    <SUITE FILE_PATH="coverage/Dilitrust$pytest_for_test_google_drive_test_uploading_file.coverage" NAME="pytest for test_google_drive.test_uploading_file Coverage Results" MODIFIED="1579567676034" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/step_defs" />
+    <SUITE FILE_PATH="coverage/Dilitrust$pytest_for_test_google_drive_test_uploading_file.coverage" NAME="pytest for test_google_drive.test_uploading_file Coverage Results" MODIFIED="1579568950716" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/step_defs" />
     <SUITE FILE_PATH="coverage/Dilitrust$pytest_for_aircanada_search_test_flight_search.coverage" NAME="pytest for aircanada_search.test_flight_search Coverage Results" MODIFIED="1579558209321" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/step_defs" />
     <SUITE FILE_PATH="coverage/Dilitrust$pytest_in_test_amazon_items_py.coverage" NAME="pytest in test_amazon_items.py Coverage Results" MODIFIED="1579559008884" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/step_defs" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tests/step_defs/test_amazon_items.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="615">
+              <caret line="42" column="8" lean-forward="true" selection-start-line="42" selection-start-column="8" selection-end-line="42" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tests/step_defs/conftest.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="630">
-              <caret line="42" column="91" selection-start-line="42" selection-start-column="91" selection-end-line="42" selection-end-column="91" />
-              <folding>
-                <element signature="e#0#13#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="60">
+              <caret line="4" selection-start-line="4" selection-end-line="4" selection-end-column="69" />
             </state>
           </provider>
         </entry>
@@ -38,8 +46,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tests/step_defs/test_google_drive.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="465">
-              <caret line="31" column="4" selection-start-line="31" selection-start-column="4" selection-end-line="31" selection-end-column="4" />
+            <state relative-caret-position="210">
+              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
               </folding>
@@ -50,8 +58,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/locators/page_elements.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="274">
+            <state relative-caret-position="245">
               <caret line="22" column="97" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="97" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tests/features/google_drive.feature">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" column="9" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -59,7 +76,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tests/step_defs/test_aircanada_search.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="598">
+            <state relative-caret-position="1995">
               <caret line="133" column="77" lean-forward="true" selection-start-line="133" selection-start-column="77" selection-end-line="133" selection-end-column="77" />
               <folding>
                 <element signature="e#1#44#0" expanded="true" />
@@ -98,10 +115,10 @@
         <option value="$PROJECT_DIR$/locators/page_elements.py" />
         <option value="$PROJECT_DIR$/tests/step_defs/aircanada_search.py" />
         <option value="$PROJECT_DIR$/tests/step_defs/test_amazon_items.py" />
-        <option value="$PROJECT_DIR$/tests/features/google_drive.feature" />
         <option value="$PROJECT_DIR$/tests/step_defs/test_aircanada_search.py" />
         <option value="$PROJECT_DIR$/tests/features/aircanada_search.feature" />
         <option value="$PROJECT_DIR$/tests/step_defs/conftest.py" />
+        <option value="$PROJECT_DIR$/tests/features/google_drive.feature" />
         <option value="$PROJECT_DIR$/tests/step_defs/test_google_drive.py" />
       </list>
     </option>
@@ -130,12 +147,17 @@
             <path>
               <item name="Dilitrust" type="b2602c69:ProjectViewProjectNode" />
               <item name="Dilitrust" type="462c0819:PsiDirectoryNode" />
-              <item name="locators" type="462c0819:PsiDirectoryNode" />
+              <item name="demo-files" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Dilitrust" type="b2602c69:ProjectViewProjectNode" />
               <item name="Dilitrust" type="462c0819:PsiDirectoryNode" />
-              <item name="Reports" type="462c0819:PsiDirectoryNode" />
+              <item name="drivers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Dilitrust" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Dilitrust" type="462c0819:PsiDirectoryNode" />
+              <item name="locators" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Dilitrust" type="b2602c69:ProjectViewProjectNode" />
@@ -184,7 +206,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.pytest for test_google_drive.test_uploading_file">
+  <component name="RunManager" selected="Python tests.pytest for test_google_drive.test_downloading_file">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="Dilitrust" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -223,19 +245,19 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for test_amazon_items.test_search_item" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for test_google_drive.test_downloading_file" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="Dilitrust" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="SDK_HOME" value="/usr/local/bin/python3.7" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/step_defs" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_amazon_items.test_search_item&quot;" />
+      <option name="_new_target" value="&quot;test_google_drive.test_downloading_file&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -304,19 +326,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python tests.pytest for test_amazon_items.test_search_item" />
       <item itemvalue="Python tests.pytest for test_google_drive.test_uploading_file" />
       <item itemvalue="Python tests.pytest for tests.step_defs.test_aircanada_search.test_flight_search" />
       <item itemvalue="Python tests.pytest in test_aircanada_search.py" />
       <item itemvalue="Python tests.pytest in test_amazon_items.py" />
+      <item itemvalue="Python tests.pytest for test_google_drive.test_downloading_file" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.pytest for test_google_drive.test_downloading_file" />
         <item itemvalue="Python tests.pytest for test_google_drive.test_uploading_file" />
         <item itemvalue="Python tests.pytest in test_amazon_items.py" />
         <item itemvalue="Python tests.pytest in test_aircanada_search.py" />
         <item itemvalue="Python tests.pytest for tests.step_defs.test_aircanada_search.test_flight_search" />
-        <item itemvalue="Python tests.pytest for test_amazon_items.test_search_item" />
       </list>
     </recent_temporary>
   </component>
@@ -337,12 +359,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="pytest_for_aircanada_search_test_flight_search - 2020.01.20 at 16h 57m 57s.xml">
-      <configuration name="pytest for aircanada_search.test_flight_search" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_aircanada_search_test_flight_search - 2020.01.20 at 17h 00m 38s.xml">
-      <configuration name="pytest for aircanada_search.test_flight_search" configurationId="tests" />
-    </history-entry>
     <history-entry file="pytest_for_aircanada_search_test_flight_search - 2020.01.20 at 17h 03m 28s.xml">
       <configuration name="pytest for aircanada_search.test_flight_search" configurationId="tests" />
     </history-entry>
@@ -367,12 +383,18 @@
     <history-entry file="pytest_for_test_google_drive_test_uploading_file - 2020.01.20 at 19h 48m 15s.xml">
       <configuration name="pytest for test_google_drive.test_uploading_file" configurationId="tests" />
     </history-entry>
+    <history-entry file="pytest_for_test_google_drive_test_downloading_file - 2020.01.20 at 20h 04m 49s.xml">
+      <configuration name="pytest for test_google_drive.test_downloading_file" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_google_drive_test_downloading_file - 2020.01.20 at 20h 05m 58s.xml">
+      <configuration name="pytest for test_google_drive.test_downloading_file" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="54962000" />
+    <option name="totallyTimeSpent" value="55735000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1920" y="0" width="1920" height="1080" extended-state="6" />
+    <frame x="-1920" y="0" width="1920" height="1080" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20713525" />
@@ -397,6 +419,29 @@
       <window_info anchor="right" id="SciView" order="3" />
       <window_info anchor="right" id="Database" order="4" />
     </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20713525" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.25742576" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="11" />
+      <window_info anchor="bottom" id="Python Console" order="12" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -475,38 +520,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/step_defs/test_amazon_items.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="42" column="8" lean-forward="true" selection-start-line="42" selection-start-column="8" selection-end-line="42" selection-end-column="8" />
-          <folding>
-            <element signature="e#1#51#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/style.css" />
     <entry file="file://$PROJECT_DIR$/tests/features/amazon_items.feature">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="38" selection-start-column="38" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/features/google_drive.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="45" selection-start-line="19" selection-start-column="45" selection-end-line="19" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/step_defs/test_aircanada_search.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="598">
-          <caret line="133" column="77" lean-forward="true" selection-start-line="133" selection-start-column="77" selection-end-line="133" selection-end-column="77" />
-          <folding>
-            <element signature="e#1#44#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -517,27 +535,48 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/step_defs/conftest.py">
+    <entry file="file://$PROJECT_DIR$/tests/step_defs/test_aircanada_search.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="42" column="91" selection-start-line="42" selection-start-column="91" selection-end-line="42" selection-end-column="91" />
+        <state relative-caret-position="1995">
+          <caret line="133" column="77" lean-forward="true" selection-start-line="133" selection-start-column="77" selection-end-line="133" selection-end-column="77" />
           <folding>
-            <element signature="e#0#13#0" expanded="true" />
+            <element signature="e#1#44#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/locators/page_elements.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
+        <state relative-caret-position="245">
           <caret line="22" column="97" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="97" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/step_defs/test_amazon_items.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="615">
+          <caret line="42" column="8" lean-forward="true" selection-start-line="42" selection-start-column="8" selection-end-line="42" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/step_defs/conftest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" selection-start-line="4" selection-end-line="4" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/features/google_drive.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="9" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/step_defs/test_google_drive.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="31" column="4" selection-start-line="31" selection-start-column="4" selection-end-line="31" selection-end-column="4" />
+        <state relative-caret-position="210">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
           </folding>
