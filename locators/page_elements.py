@@ -44,7 +44,7 @@ class Elements(object):
     P_NUMBER = '9999999999'
     EMAIL_ADDRESS = 'sandeepkuri001@gmail.com'
     FLYING_MONTH = 'March'
-    FLYING_O_DATE = '10'
+    FLYING_O_DATE = '8'
     FLYING_I_DATE = '19'
 
     aircanda_elements = {
