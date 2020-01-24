@@ -42,9 +42,18 @@ def select_cdg(driver):
 @when('User is selecting dates')
 def select_dates(driver):
     driver.find_element_by_xpath(Elements.aircanda_elements['select_date']).click()
-    time.sleep(2)
-    driver.find_element_by_xpath(Elements.aircanda_elements['select_02']).click()
-    driver.find_element_by_xpath(Elements.aircanda_elements['select_20']).click()
+
+    while(True):
+
+        Month = driver.find_element_by_xpath("(//span[@class='ui-datepicker-month'])[1]").text
+
+        if(Month == Elements.FLYING_MONTH):
+            break
+        else:
+            driver.find_element_by_xpath("//a[@title='Next']").click()
+
+    driver.find_element_by_xpath(Elements.aircanda_elements['select_o_date']).click()
+    driver.find_element_by_xpath(Elements.aircanda_elements['select_i_date']).click()
     driver.find_element_by_xpath(Elements.aircanda_elements['select_button']).click()
     driver.find_element_by_xpath(Elements.aircanda_elements['no_flexible']).click()
     driver.find_element_by_xpath(Elements.aircanda_elements['find_button']).click()

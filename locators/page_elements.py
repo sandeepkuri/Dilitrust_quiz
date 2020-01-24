@@ -43,6 +43,9 @@ class Elements(object):
     L_NAME = "Kuri"
     P_NUMBER = '9999999999'
     EMAIL_ADDRESS = 'sandeepkuri001@gmail.com'
+    FLYING_MONTH = 'March'
+    FLYING_O_DATE = '10'
+    FLYING_I_DATE = '19'
 
     aircanda_elements = {
         "select_english": "//button[@id='enCAEdition']",
@@ -51,8 +54,8 @@ class Elements(object):
         "to_": "//input[@id='destination_R_0']",
         "to_paris": "//div[contains(text(),'CDG')]",
         "select_date": "//span[@class='flight-calendar-label default']",
-        "select_02": "//div[@data-monthyear='2020-02']//table[1]//tbody[1]//tr//td[@data-date='02']",
-        "select_20": "//div[@data-monthyear='2020-02']//table[1]//tbody[1]//tr//td[@data-date='20']",
+        "select_o_date": "(//span[@class='ui-state-default ui-calendar-date' and contains(text(),'"+FLYING_O_DATE+"')])[1]",
+        "select_i_date": "(//span[@class='ui-state-default ui-calendar-date' and contains(text(),'"+FLYING_I_DATE+"')])[1]",
         "select_button": "//button[contains(text(),'Select')]",
         "no_flexible": "//span[contains(text(),'My dates are flexible')]",
         "find_button": "//input[@value='	Find']",
